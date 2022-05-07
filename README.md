@@ -3,9 +3,13 @@ y2s2 android application project for an online food delivary app
 
 
 group members:
+
 IT20613068 -  Hidellarachchi.M
+
 IT20297572 -	D.L.N.Hansinee
+
 IT20657000 -	P.M.Ranawaka
+
 IT20604462 -	Karunathilaka A.G.G.N
 
 
