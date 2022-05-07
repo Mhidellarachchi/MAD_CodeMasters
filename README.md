@@ -1,6 +1,20 @@
 # MAD_CodeMasters
 y2s2 android application project for an online food delivary app
+
+
+group members:
+IT20613068 -  Hidellarachchi.M
+IT20297572 -	D.L.N.Hansinee
+IT20657000 -	P.M.Ranawaka
+IT20604462 -	Karunathilaka A.G.G.N
+
+
+
+
+
+
 Introduction to the project
+
 Topic- Mobile application for a restaurant 
 
 With the increase in technological advancements, mobile application usage has been rapidly increasing across the globe. With the rapid increase in smartphone and tablet usage, businesses are using mobile apps as an opportunity to improve their services and build a stronger brand value. Mobile applications have several advantages like an increase in customer engagements because it’s available at any time and anywhere, improved customer loyalty, having a competitive edge in the industry, offering better customer services, and so on.
