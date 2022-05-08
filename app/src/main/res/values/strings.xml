@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">delivary service</string>
+    <string name="add_a_new_product">Add a New Product</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+</resources>
