@@ -1,0 +1,63 @@
+package com.example.android01.adapters;
+
+import static com.google.android.gms.analytics.ecommerce.Product.*;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.DiffUtil;
+import androidx.recyclerview.widget.ListAdapter;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.android01.databinding.ShopRowBinding;
+import com.example.android01.models.Proudect;
+import com.google.android.gms.analytics.ecommerce.Product;
+
+
+public class ShopListAdapter extends ListAdapter<Product, ShopListAdapter.ShopViewHolder> {
+
+    public ShopListAdapter() {
+        super(Proudect.itemCallback);
+
+
+    }
+
+    @NonNull
+    @Override
+    public ShopViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
+        ShopRowBinding shopRowBinding = ShopRowBinding.inflate(layoutInflater,parent, false);
+        return new ShopViewHolder(shopRowBinding);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ShopViewHolder holder, int position) {
+          Product product = getItem(position);
+          holder.shopRowBinding.setProduct(product);
+
+
+    }
+
+    class ShopViewHolder extends RecyclerView.ViewHolder{
+
+        ShopRowBinding shopRowBinding;
+
+
+             public ShopViewHolder(ShopRowBinding binding)
+             {
+                 super(binding.getRoot());
+                 this.shopRowBinding = binding;
+             }
+
+
+
+        }
+
+        public interface ShopInterface{
+        void addItem(Product product);
+        void onItemClick(Product product);
+        }
+    }
+
