@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddPromos">
-
+    tools:context=".promo2">
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="142dp"
@@ -178,7 +177,7 @@
         android:layout_width="101dp"
         android:layout_height="40dp"
         android:text="ADD"
-        android:backgroundTint="#5319D9"
+        android:backgroundTint="#FF9800"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -193,7 +192,7 @@
         android:layout_height="40dp"
         android:text="CANCEL"
         android:textColor="@color/white"
-        android:backgroundTint="#5319D9"
+        android:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.866"
@@ -228,3 +227,4 @@
         app:layout_constraintVertical_bias="0.027"
         app:srcCompat="@drawable/img_20220506_wa0001" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManufestFile">
         <activity
+            android:name=".promo2"
+            android:exported="false" />
+        <activity
             android:name=".EditPro"
             android:exported="false" />
         <activity

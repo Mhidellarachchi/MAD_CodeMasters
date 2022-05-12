@@ -14,12 +14,12 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        button = (Button) findViewById(R.id.go);
+        button = (Button) findViewById(R.id.Signin);
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent v = new Intent(getApplicationContext(),Promos.class);
+                Intent v = new Intent(getApplicationContext(),Register.class);
                 startActivity(v);
             }
         });
