@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-public class EditPro extends AppCompatActivity {
+public class EditPromos extends AppCompatActivity {
     private EditText catagory,period,price,count;
     private Button edit;
     private ImageView pizza;

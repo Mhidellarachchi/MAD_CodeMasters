@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    android:background="@color/white"
+    android:background="@color/teal_700"
     android:foregroundTint="#9C27B0"
     tools:context=".MainActivity2"
     tools:visibility="visible">
@@ -36,34 +36,33 @@
         app:layout_constraintVertical_bias="0.444" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="212dp"
-        android:layout_height="30dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:ems="10"
-
+        android:layout_marginStart="145dp"
         android:inputType="textPersonName"
         android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintHorizontal_bias="0.679"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338"
+        app:layout_constraintVertical_bias="0.45"
         tools:visibility="invisible" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/email"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436"
+        app:layout_constraintVertical_bias="0.343"
         tools:visibility="invisible" />
 
     <TextView
@@ -81,7 +80,7 @@
 
 
     <Button
-        android:id="@+id/Signin"
+        android:id="@+id/signin"
         android:layout_width="277dp"
         android:layout_height="48dp"
         android:backgroundTint="#5319D9"
@@ -108,19 +107,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.957" />
 
-    <TextView
-        android:id="@+id/Register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:textColor="@color/purple_700"
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="97dp"
+        android:layout_height="32dp"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.961" />
+        app:layout_constraintVertical_bias="0.964" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

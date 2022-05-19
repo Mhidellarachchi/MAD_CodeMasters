@@ -10,16 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManufestFile">
         <activity
-            android:name=".promo2"
+            android:name=".MainActivity5"
             android:exported="false" />
         <activity
-            android:name=".EditPro"
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".EditPromos"
             android:exported="false" />
         <activity
             android:name=".AddPromos"
-            android:exported="false" />
-        <activity
-            android:name=".Promos"
             android:exported="false" />
         <activity
             android:name=".Register"

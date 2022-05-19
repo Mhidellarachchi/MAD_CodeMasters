@@ -4,15 +4,34 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.123" />
         <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.246" />
         <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_add_pro.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_add_promos.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_add_promos2.xml" value="0.2" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_coustom.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_edit_pro.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_edit_promos.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_food.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_food_list.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_home.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_list.xml" value="0.2037037037037037" />
         <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_main4.xml" value="0.1" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_main5.xml" value="0.2" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_main_add.xml" value="0.1" />
         <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_promo2.xml" value="0.21403508771929824" />
-        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_promos.xml" value="0.2" />
-        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_promos.xml" value="0.12" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_promos2.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/activity_register.xml" value="0.152" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/promos.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/row.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/single__todo.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/single_tod0.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/singlerow.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Gamitha/AndroidStudioProjects/ManufestFile/app/src/main/res/layout/srow.xml" value="0.21403508771929824" />
       </map>
     </option>
   </component>

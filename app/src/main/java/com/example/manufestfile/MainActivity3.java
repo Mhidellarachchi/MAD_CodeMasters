@@ -10,11 +10,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-
-public class  Promos extends AppCompatActivity {
+public class MainActivity3 extends AppCompatActivity {
     private Button add;
     private ListView listview;
     Context context;
@@ -22,17 +19,17 @@ public class  Promos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_promos);
-        add = findViewById(R.id.add);
-        listview=findViewById(R.id.listview);
-        context = this;
+        setContentView(R.layout.activity_main3);
 
+        add = findViewById(R.id.add);
+        listview = findViewById(R.id.listview);
+        context = this;
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(context, AddPromos.class));
             }
-        });
+         });
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -43,5 +40,5 @@ public class  Promos extends AppCompatActivity {
             }
         });
 
-        }
     }
+}
